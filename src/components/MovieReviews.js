@@ -11,14 +11,14 @@ let  MovieReviews=(props)=> {
         <li>critics pick: {e.critics_pick}</li>
         <li>Date Updated: {e.date_updated}</li>
              </div>
-           
+
             })
     }
     return (
         <div className="review-list">
             {mapper(props.reviews)}
-           
-            
+
+
         </div>
     )
 }
